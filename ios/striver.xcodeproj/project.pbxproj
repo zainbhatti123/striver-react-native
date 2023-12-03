@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BFE67A2F354B2ABFCA2A3D /* VVE-Giallo-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 348FABB355F843DA87A3A042 /* VVE-Giallo-ThinItalic.ttf */; };
+		00E356F31AD99517003FC87E /* striverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* striverTests.m */; };
+		01386239FF9742E7914E5CBF /* VVE-Giallo-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CE23A1AE1914E23B2416DBD /* VVE-Giallo-HeavyItalic.ttf */; };
+		0461997AF7DD4448BA8C34BA /* VVE-Giallo-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D126775B3F48F4976BB540 /* VVE-Giallo-ExtraBoldItalic.ttf */; };
+		04F1B2F1289080B7006BADE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04F1B2F0289080B7006BADE9 /* GoogleService-Info.plist */; };
+		076BA593AC9940FBB3E6F665 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56B642CE4E824B55BA06FAA9 /* Poppins-ThinItalic.ttf */; };
+		0BCC1489F2CB417BB5B99202 /* VVE-Giallo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B6E4867F09C4939A81D9515 /* VVE-Giallo-BoldItalic.ttf */; };
+		0C7467383F324F1EAC7E9E04 /* VVE-Giallo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2832C5B14224CA498DEDA22 /* VVE-Giallo-Italic.ttf */; };
+		0E3AA57404F0407183654078 /* VisiaPro-BoldOutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFC259815A34A1B838A4484 /* VisiaPro-BoldOutline.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13B62537A85D47F3A29100B2 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0596C18C7F144792A1FD24D4 /* Poppins-Thin.ttf */; };
+		2D5F60D36BC04F3B9060EE7C /* VisiaPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A42311C39401DBA355289 /* VisiaPro-Regular.ttf */; };
+		39CC396E010247D8A80DE88F /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B557796719A6450BAC1B8219 /* Poppins-BoldItalic.ttf */; };
+		3B67A64841FA41528C4F377C /* VVE-Giallo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DA389992F4CAC9EE79BEF /* VVE-Giallo-Regular.ttf */; };
+		433FCC2749FD42199055E7E8 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4AB420165AB4267A79BF390 /* Poppins-ExtraLightItalic.ttf */; };
+		43598C20FBCC42B8A62639F8 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0805C44B760475C9F9089B8 /* Poppins-MediumItalic.ttf */; };
+		4B05B274ECDE4F178EB35FEC /* VVE-Giallo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DA845B03A2E47B7B051DF93 /* VVE-Giallo-Thin.ttf */; };
+		4B94E714786A419BB0EFBAB4 /* VisiaPro-RegularOutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0071D378FF147D080BF2143 /* VisiaPro-RegularOutline.ttf */; };
+		4E7D632A98E645888D105BA0 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 879BA7B17F98469AAE6AC80E /* Poppins-Regular.ttf */; };
+		4F9E7CA60811409E8869B6AC /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A84F170509149F387BC2103 /* Poppins-ExtraLight.ttf */; };
+		4FFEB79FDAF04B85949FBE6B /* VisiaPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 125326923A4A40ADB1F6B7F9 /* VisiaPro-Bold.ttf */; };
+		5338AC42475447C98DF70B6B /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC834F52034B4ABFAD2D9B9C /* Poppins-ExtraBold.ttf */; };
+		622C690180D0404F911A9B36 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7008AB17BF0343C28232143B /* Poppins-SemiBold.ttf */; };
+		626FCB67F3FF447C8F68663E /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E74D554898754CFDAC8BD59F /* Poppins-ExtraBoldItalic.ttf */; };
+		68877521794E4C33B7F5D8A5 /* VVE-Giallo-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C71E5CF404949DDAE94BA49 /* VVE-Giallo-Book.ttf */; };
+		6CEB1896EB2A4D19B3FC5E1B /* VVE-Giallo-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 874FFE8CD4A44DAAAAAD2B0A /* VVE-Giallo-MediumItalic.ttf */; };
+		6F9C6E7CD84C4C4FA262563A /* VVE-Giallo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06956CE70D3749C4912845F6 /* VVE-Giallo-Medium.ttf */; };
+		6FA8B0E31440D3D0E40CC9A5 /* libPods-striver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A369FDDC4B49DDD36B0168 /* libPods-striver.a */; };
+		7F014D7D6D1342FEB8900800 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16C54A4589E648D5B9B76F8B /* Poppins-BlackItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		95B6704F7FD548C8B926157A /* VVE-Giallo-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83083F8DDB554A069FB04630 /* VVE-Giallo-BookItalic.ttf */; };
+		97B195D4454B48FD88B03F49 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30A696FBF4C49779E92BF4B /* Poppins-Black.ttf */; };
+		981E3EF536234E709E963AAA /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF285CB631494CDDAF5E024D /* Poppins-Italic.ttf */; };
+		9BC92FC946284D35AB3DD27C /* VisiaPro-BoldItalicOutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD2DF07697B74D52A0E5351C /* VisiaPro-BoldItalicOutline.ttf */; };
+		9C0843704832433E8460839E /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 433ABF4333364F53BC5A9F37 /* MaterialCommunityIcons.ttf */; };
+		A123B04DD9F24B6FAFB1B0DF /* VVE-Giallo-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAFB04FF3A6741979B1C4CB7 /* VVE-Giallo-LightItalic.ttf */; };
+		A331B974B4154C15A9C41E21 /* VVE-Giallo-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88CF83DD7C464792985B706B /* VVE-Giallo-Heavy.ttf */; };
+		ACFBF31F2DE84AAC898C1BDA /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8B07A2BBADE4962B840173D /* Poppins-Medium.ttf */; };
+		B72F8A431C193E2FA0507648 /* libPods-striver-striverTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B5C7FC7E7C111C24B3F6C0 /* libPods-striver-striverTests.a */; };
+		C0D943723BF945A58221CDC6 /* VVE-Giallo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D259CAC48F44B068F3553DB /* VVE-Giallo-Light.ttf */; };
+		C37798C94B854E288B5D0CF9 /* VVE-Giallo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2040DEA4FEA46B8AED9BEEB /* VVE-Giallo-ExtraBold.ttf */; };
+		C5A49440BD9F4D449C975E18 /* VisiaPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F58F91937B4ECFA4C4D998 /* VisiaPro-Italic.ttf */; };
+		C69834DA49F14AEB8A53DAF2 /* VisiaPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A0CC3FF5D48BEA5139586 /* VisiaPro-BoldItalic.ttf */; };
+		CC499F8E51574530BC84F649 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB7FFE292EA42078C5D1F97 /* Poppins-LightItalic.ttf */; };
+		DB436761290B460DA917A775 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDDAE081640948C1BA0D1B2A /* Poppins-Bold.ttf */; };
+		DDA506F6A1494DF7806F0FCB /* VVE-Giallo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE58AF04B8314F559263F885 /* VVE-Giallo-Bold.ttf */; };
+		DFC2298597844B2E9518C177 /* VisiaPro-ItalicOutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1515E4D8694B4CB91B7A8B /* VisiaPro-ItalicOutline.ttf */; };
+		F201DD01C477411692F2173A /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 911775E8DDCF429AB08A94CC /* Poppins-SemiBoldItalic.ttf */; };
+		F26A85E47B664513840298B3 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5695EABC66C44F4093089E00 /* Poppins-Light.ttf */; };
+		F687157F0EF6425199442B31 /* Arialic-Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A62ECB9795A74739AD28C7F1 /* Arialic-Hollow.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = striver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* striverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = striverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* striverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = striverTests.m; sourceTree = "<group>"; };
+		04F1B2F0289080B7006BADE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04F1B2F228909D79006BADE9 /* striver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = striver.entitlements; path = striver/striver.entitlements; sourceTree = "<group>"; };
+		0596C18C7F144792A1FD24D4 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		06956CE70D3749C4912845F6 /* VVE-Giallo-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-Medium.ttf"; path = "../assets/fonts/VVE-Giallo-Medium.ttf"; sourceTree = "<group>"; };
+		0C71E5CF404949DDAE94BA49 /* VVE-Giallo-Book.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-Book.ttf"; path = "../assets/fonts/VVE-Giallo-Book.ttf"; sourceTree = "<group>"; };
+		0D4A0CC3FF5D48BEA5139586 /* VisiaPro-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisiaPro-BoldItalic.ttf"; path = "../assets/fonts/VisiaPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		125326923A4A40ADB1F6B7F9 /* VisiaPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisiaPro-Bold.ttf"; path = "../assets/fonts/VisiaPro-Bold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* striver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = striver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = striver/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = striver/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = striver/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = striver/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = striver/main.m; sourceTree = "<group>"; };
+		16C54A4589E648D5B9B76F8B /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1C0DA389992F4CAC9EE79BEF /* VVE-Giallo-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-Regular.ttf"; path = "../assets/fonts/VVE-Giallo-Regular.ttf"; sourceTree = "<group>"; };
+		1CE23A1AE1914E23B2416DBD /* VVE-Giallo-HeavyItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-HeavyItalic.ttf"; path = "../assets/fonts/VVE-Giallo-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		1D259CAC48F44B068F3553DB /* VVE-Giallo-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-Light.ttf"; path = "../assets/fonts/VVE-Giallo-Light.ttf"; sourceTree = "<group>"; };
+		1F9A42311C39401DBA355289 /* VisiaPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisiaPro-Regular.ttf"; path = "../assets/fonts/VisiaPro-Regular.ttf"; sourceTree = "<group>"; };
+		348FABB355F843DA87A3A042 /* VVE-Giallo-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-ThinItalic.ttf"; path = "../assets/fonts/VVE-Giallo-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-striver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-striver.debug.xcconfig"; path = "Target Support Files/Pods-striver/Pods-striver.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6E4867F09C4939A81D9515 /* VVE-Giallo-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-BoldItalic.ttf"; path = "../assets/fonts/VVE-Giallo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		433ABF4333364F53BC5A9F37 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		4A84F170509149F387BC2103 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5695EABC66C44F4093089E00 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		56B642CE4E824B55BA06FAA9 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-striver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-striver.release.xcconfig"; path = "Target Support Files/Pods-striver/Pods-striver.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-striver-striverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-striver-striverTests.debug.xcconfig"; path = "Target Support Files/Pods-striver-striverTests/Pods-striver-striverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DA845B03A2E47B7B051DF93 /* VVE-Giallo-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-Thin.ttf"; path = "../assets/fonts/VVE-Giallo-Thin.ttf"; sourceTree = "<group>"; };
+		6EFC259815A34A1B838A4484 /* VisiaPro-BoldOutline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisiaPro-BoldOutline.ttf"; path = "../assets/fonts/VisiaPro-BoldOutline.ttf"; sourceTree = "<group>"; };
+		7008AB17BF0343C28232143B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		73A369FDDC4B49DDD36B0168 /* libPods-striver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-striver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D126775B3F48F4976BB540 /* VVE-Giallo-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-ExtraBoldItalic.ttf"; path = "../assets/fonts/VVE-Giallo-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = striver/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83083F8DDB554A069FB04630 /* VVE-Giallo-BookItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-BookItalic.ttf"; path = "../assets/fonts/VVE-Giallo-BookItalic.ttf"; sourceTree = "<group>"; };
+		874FFE8CD4A44DAAAAAD2B0A /* VVE-Giallo-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-MediumItalic.ttf"; path = "../assets/fonts/VVE-Giallo-MediumItalic.ttf"; sourceTree = "<group>"; };
+		879BA7B17F98469AAE6AC80E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		88CF83DD7C464792985B706B /* VVE-Giallo-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-Heavy.ttf"; path = "../assets/fonts/VVE-Giallo-Heavy.ttf"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-striver-striverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-striver-striverTests.release.xcconfig"; path = "Target Support Files/Pods-striver-striverTests/Pods-striver-striverTests.release.xcconfig"; sourceTree = "<group>"; };
+		911775E8DDCF429AB08A94CC /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		92F58F91937B4ECFA4C4D998 /* VisiaPro-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisiaPro-Italic.ttf"; path = "../assets/fonts/VisiaPro-Italic.ttf"; sourceTree = "<group>"; };
+		A0071D378FF147D080BF2143 /* VisiaPro-RegularOutline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisiaPro-RegularOutline.ttf"; path = "../assets/fonts/VisiaPro-RegularOutline.ttf"; sourceTree = "<group>"; };
+		A62ECB9795A74739AD28C7F1 /* Arialic-Hollow.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Arialic-Hollow.ttf"; path = "../assets/fonts/Arialic-Hollow.ttf"; sourceTree = "<group>"; };
+		A8B07A2BBADE4962B840173D /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		B2040DEA4FEA46B8AED9BEEB /* VVE-Giallo-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-ExtraBold.ttf"; path = "../assets/fonts/VVE-Giallo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B30A696FBF4C49779E92BF4B /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		B557796719A6450BAC1B8219 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B6B5C7FC7E7C111C24B3F6C0 /* libPods-striver-striverTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-striver-striverTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFB04FF3A6741979B1C4CB7 /* VVE-Giallo-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-LightItalic.ttf"; path = "../assets/fonts/VVE-Giallo-LightItalic.ttf"; sourceTree = "<group>"; };
+		BCB7FFE292EA42078C5D1F97 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		BD2DF07697B74D52A0E5351C /* VisiaPro-BoldItalicOutline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisiaPro-BoldItalicOutline.ttf"; path = "../assets/fonts/VisiaPro-BoldItalicOutline.ttf"; sourceTree = "<group>"; };
+		BE58AF04B8314F559263F885 /* VVE-Giallo-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-Bold.ttf"; path = "../assets/fonts/VVE-Giallo-Bold.ttf"; sourceTree = "<group>"; };
+		C2832C5B14224CA498DEDA22 /* VVE-Giallo-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VVE-Giallo-Italic.ttf"; path = "../assets/fonts/VVE-Giallo-Italic.ttf"; sourceTree = "<group>"; };
+		CF285CB631494CDDAF5E024D /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		D0805C44B760475C9F9089B8 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E74D554898754CFDAC8BD59F /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EC834F52034B4ABFAD2D9B9C /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		ED1515E4D8694B4CB91B7A8B /* VisiaPro-ItalicOutline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisiaPro-ItalicOutline.ttf"; path = "../assets/fonts/VisiaPro-ItalicOutline.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDDAE081640948C1BA0D1B2A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F4AB420165AB4267A79BF390 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72F8A431C193E2FA0507648 /* libPods-striver-striverTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA8B0E31440D3D0E40CC9A5 /* libPods-striver.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* striverTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* striverTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = striverTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* striver */ = {
+			isa = PBXGroup;
+			children = (
+				04F1B2F228909D79006BADE9 /* striver.entitlements */,
+				04F1B2F0289080B7006BADE9 /* GoogleService-Info.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = striver;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				73A369FDDC4B49DDD36B0168 /* libPods-striver.a */,
+				B6B5C7FC7E7C111C24B3F6C0 /* libPods-striver-striverTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DD5D584FE0142E684EDEE26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B30A696FBF4C49779E92BF4B /* Poppins-Black.ttf */,
+				16C54A4589E648D5B9B76F8B /* Poppins-BlackItalic.ttf */,
+				EDDAE081640948C1BA0D1B2A /* Poppins-Bold.ttf */,
+				B557796719A6450BAC1B8219 /* Poppins-BoldItalic.ttf */,
+				EC834F52034B4ABFAD2D9B9C /* Poppins-ExtraBold.ttf */,
+				E74D554898754CFDAC8BD59F /* Poppins-ExtraBoldItalic.ttf */,
+				4A84F170509149F387BC2103 /* Poppins-ExtraLight.ttf */,
+				F4AB420165AB4267A79BF390 /* Poppins-ExtraLightItalic.ttf */,
+				CF285CB631494CDDAF5E024D /* Poppins-Italic.ttf */,
+				5695EABC66C44F4093089E00 /* Poppins-Light.ttf */,
+				BCB7FFE292EA42078C5D1F97 /* Poppins-LightItalic.ttf */,
+				A8B07A2BBADE4962B840173D /* Poppins-Medium.ttf */,
+				D0805C44B760475C9F9089B8 /* Poppins-MediumItalic.ttf */,
+				879BA7B17F98469AAE6AC80E /* Poppins-Regular.ttf */,
+				7008AB17BF0343C28232143B /* Poppins-SemiBold.ttf */,
+				911775E8DDCF429AB08A94CC /* Poppins-SemiBoldItalic.ttf */,
+				0596C18C7F144792A1FD24D4 /* Poppins-Thin.ttf */,
+				56B642CE4E824B55BA06FAA9 /* Poppins-ThinItalic.ttf */,
+				BE58AF04B8314F559263F885 /* VVE-Giallo-Bold.ttf */,
+				3B6E4867F09C4939A81D9515 /* VVE-Giallo-BoldItalic.ttf */,
+				0C71E5CF404949DDAE94BA49 /* VVE-Giallo-Book.ttf */,
+				83083F8DDB554A069FB04630 /* VVE-Giallo-BookItalic.ttf */,
+				B2040DEA4FEA46B8AED9BEEB /* VVE-Giallo-ExtraBold.ttf */,
+				73D126775B3F48F4976BB540 /* VVE-Giallo-ExtraBoldItalic.ttf */,
+				88CF83DD7C464792985B706B /* VVE-Giallo-Heavy.ttf */,
+				1CE23A1AE1914E23B2416DBD /* VVE-Giallo-HeavyItalic.ttf */,
+				C2832C5B14224CA498DEDA22 /* VVE-Giallo-Italic.ttf */,
+				1D259CAC48F44B068F3553DB /* VVE-Giallo-Light.ttf */,
+				BAFB04FF3A6741979B1C4CB7 /* VVE-Giallo-LightItalic.ttf */,
+				06956CE70D3749C4912845F6 /* VVE-Giallo-Medium.ttf */,
+				874FFE8CD4A44DAAAAAD2B0A /* VVE-Giallo-MediumItalic.ttf */,
+				1C0DA389992F4CAC9EE79BEF /* VVE-Giallo-Regular.ttf */,
+				6DA845B03A2E47B7B051DF93 /* VVE-Giallo-Thin.ttf */,
+				348FABB355F843DA87A3A042 /* VVE-Giallo-ThinItalic.ttf */,
+				6EFC259815A34A1B838A4484 /* VisiaPro-BoldOutline.ttf */,
+				A0071D378FF147D080BF2143 /* VisiaPro-RegularOutline.ttf */,
+				A62ECB9795A74739AD28C7F1 /* Arialic-Hollow.ttf */,
+				125326923A4A40ADB1F6B7F9 /* VisiaPro-Bold.ttf */,
+				0D4A0CC3FF5D48BEA5139586 /* VisiaPro-BoldItalic.ttf */,
+				BD2DF07697B74D52A0E5351C /* VisiaPro-BoldItalicOutline.ttf */,
+				92F58F91937B4ECFA4C4D998 /* VisiaPro-Italic.ttf */,
+				ED1515E4D8694B4CB91B7A8B /* VisiaPro-ItalicOutline.ttf */,
+				1F9A42311C39401DBA355289 /* VisiaPro-Regular.ttf */,
+				433ABF4333364F53BC5A9F37 /* MaterialCommunityIcons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* striver */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* striverTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				5DD5D584FE0142E684EDEE26 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* striver.app */,
+				00E356EE1AD99517003FC87E /* striverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-striver.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-striver.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-striver-striverTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-striver-striverTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* striverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "striverTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				C15CFFDB8E24EB90A4E2E83A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = striverTests;
+			productName = striverTests;
+			productReference = 00E356EE1AD99517003FC87E /* striverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* striver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "striver" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				FB86F5E1EF81820968D2D785 /* [CP-User] [RNFB] Core Configuration */,
+				B8F593852C69A54C11849D32 /* [CP] Copy Pods Resources */,
+				143679B6DA83FDD5B925176A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = striver;
+			productName = striver;
+			productReference = 13B07F961A680F5B00A75B9A /* striver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "striver" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* striver */,
+				00E356ED1AD99517003FC87E /* striverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				97B195D4454B48FD88B03F49 /* Poppins-Black.ttf in Resources */,
+				7F014D7D6D1342FEB8900800 /* Poppins-BlackItalic.ttf in Resources */,
+				DB436761290B460DA917A775 /* Poppins-Bold.ttf in Resources */,
+				39CC396E010247D8A80DE88F /* Poppins-BoldItalic.ttf in Resources */,
+				5338AC42475447C98DF70B6B /* Poppins-ExtraBold.ttf in Resources */,
+				626FCB67F3FF447C8F68663E /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				4F9E7CA60811409E8869B6AC /* Poppins-ExtraLight.ttf in Resources */,
+				433FCC2749FD42199055E7E8 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				981E3EF536234E709E963AAA /* Poppins-Italic.ttf in Resources */,
+				F26A85E47B664513840298B3 /* Poppins-Light.ttf in Resources */,
+				CC499F8E51574530BC84F649 /* Poppins-LightItalic.ttf in Resources */,
+				ACFBF31F2DE84AAC898C1BDA /* Poppins-Medium.ttf in Resources */,
+				43598C20FBCC42B8A62639F8 /* Poppins-MediumItalic.ttf in Resources */,
+				4E7D632A98E645888D105BA0 /* Poppins-Regular.ttf in Resources */,
+				622C690180D0404F911A9B36 /* Poppins-SemiBold.ttf in Resources */,
+				F201DD01C477411692F2173A /* Poppins-SemiBoldItalic.ttf in Resources */,
+				13B62537A85D47F3A29100B2 /* Poppins-Thin.ttf in Resources */,
+				076BA593AC9940FBB3E6F665 /* Poppins-ThinItalic.ttf in Resources */,
+				DDA506F6A1494DF7806F0FCB /* VVE-Giallo-Bold.ttf in Resources */,
+				0BCC1489F2CB417BB5B99202 /* VVE-Giallo-BoldItalic.ttf in Resources */,
+				68877521794E4C33B7F5D8A5 /* VVE-Giallo-Book.ttf in Resources */,
+				95B6704F7FD548C8B926157A /* VVE-Giallo-BookItalic.ttf in Resources */,
+				C37798C94B854E288B5D0CF9 /* VVE-Giallo-ExtraBold.ttf in Resources */,
+				0461997AF7DD4448BA8C34BA /* VVE-Giallo-ExtraBoldItalic.ttf in Resources */,
+				04F1B2F1289080B7006BADE9 /* GoogleService-Info.plist in Resources */,
+				A331B974B4154C15A9C41E21 /* VVE-Giallo-Heavy.ttf in Resources */,
+				01386239FF9742E7914E5CBF /* VVE-Giallo-HeavyItalic.ttf in Resources */,
+				0C7467383F324F1EAC7E9E04 /* VVE-Giallo-Italic.ttf in Resources */,
+				C0D943723BF945A58221CDC6 /* VVE-Giallo-Light.ttf in Resources */,
+				A123B04DD9F24B6FAFB1B0DF /* VVE-Giallo-LightItalic.ttf in Resources */,
+				6F9C6E7CD84C4C4FA262563A /* VVE-Giallo-Medium.ttf in Resources */,
+				6CEB1896EB2A4D19B3FC5E1B /* VVE-Giallo-MediumItalic.ttf in Resources */,
+				3B67A64841FA41528C4F377C /* VVE-Giallo-Regular.ttf in Resources */,
+				4B05B274ECDE4F178EB35FEC /* VVE-Giallo-Thin.ttf in Resources */,
+				00BFE67A2F354B2ABFCA2A3D /* VVE-Giallo-ThinItalic.ttf in Resources */,
+				0E3AA57404F0407183654078 /* VisiaPro-BoldOutline.ttf in Resources */,
+				4B94E714786A419BB0EFBAB4 /* VisiaPro-RegularOutline.ttf in Resources */,
+				F687157F0EF6425199442B31 /* Arialic-Hollow.ttf in Resources */,
+				4FFEB79FDAF04B85949FBE6B /* VisiaPro-Bold.ttf in Resources */,
+				C69834DA49F14AEB8A53DAF2 /* VisiaPro-BoldItalic.ttf in Resources */,
+				9BC92FC946284D35AB3DD27C /* VisiaPro-BoldItalicOutline.ttf in Resources */,
+				C5A49440BD9F4D449C975E18 /* VisiaPro-Italic.ttf in Resources */,
+				DFC2298597844B2E9518C177 /* VisiaPro-ItalicOutline.ttf in Resources */,
+				2D5F60D36BC04F3B9060EE7C /* VisiaPro-Regular.ttf in Resources */,
+				9C0843704832433E8460839E /* MaterialCommunityIcons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		143679B6DA83FDD5B925176A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-striver/Pods-striver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-striver/Pods-striver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-striver/Pods-striver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-striver-striverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F593852C69A54C11849D32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-striver/Pods-striver-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-striver/Pods-striver-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-striver/Pods-striver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15CFFDB8E24EB90A4E2E83A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-striver-striverTests/Pods-striver-striverTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-striver-striverTests/Pods-striver-striverTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-striver-striverTests/Pods-striver-striverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-striver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-striver-striverTests/Pods-striver-striverTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-striver-striverTests/Pods-striver-striverTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-striver-striverTests/Pods-striver-striverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB86F5E1EF81820968D2D785 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* striverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* striver */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-striver-striverTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = striverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/striver.app/striver";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-striver-striverTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = striverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/striver.app/striver";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-striver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = striver/striver.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.5;
+				DEVELOPMENT_TEAM = LRK2DMFAQR;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = striver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.striver.bundlerid.com;
+				PRODUCT_NAME = striver;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-striver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = striver/striver.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.5;
+				DEVELOPMENT_TEAM = LRK2DMFAQR;
+				INFOPLIST_FILE = striver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.striver.bundlerid.com;
+				PRODUCT_NAME = striver;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "striverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "striver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "striver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
